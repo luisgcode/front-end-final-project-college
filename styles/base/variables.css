@@ -1,0 +1,10 @@
+:root {
+  --bg-color: #f6f1ee;
+  --primary-color: #ed7d31;
+  --secondary-color: #6c5f5b;
+  --regular-color: #1a1a1a;
+
+  --primary-text: clamp(2.5rem, 5vw, 3.5rem);
+  --secondary-text: clamp(2rem, 5vw, 2rem);
+  --regular-text: clamp(1.6rem, 2vw, 1.8rem);
+}
