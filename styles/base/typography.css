@@ -11,7 +11,7 @@ body {
 p {
   margin: 0;
   padding: 0;
-  color: var(--primary-color-light);
+  color: var(--regular-color);
 }
 
 h1,
