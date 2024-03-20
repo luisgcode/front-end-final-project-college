@@ -1,0 +1,36 @@
+.header {
+  padding: 2rem 0;
+  background: var(--secondary-color);
+}
+
+.header_wrapp {
+  max-width: 120rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  text-align: center;
+}
+
+.header_wrapp_logo {
+  width: 20rem;
+  margin-bottom: 2rem;
+}
+
+.header_wrapp_logo small {
+  font-style: italic;
+  letter-spacing: 1px;
+  color: var(--bg-color);
+}
+
+.header_wrapp_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+
+.nav_li_a {
+  color: var(--bg-color);
+  font-weight: bold;
+}
