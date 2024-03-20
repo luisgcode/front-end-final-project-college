@@ -2,11 +2,15 @@
 @import url(base/utilities.css);
 @import url(base/variables.css);
 
+@import url(components/aside.css);
 @import url(components/buttons.css);
-@import url(components/cards.css);
+@import url(components/articles.css);
 @import url(components/footer.css);
 @import url(components/header.css);
-@import url(components/sidebar.css);
+
+@import url(pages/aboutPage.css);
+@import url(pages/contactPage.css);
+@import url(pages/homePage.css);
 
 /* Reset values */
 * {
@@ -36,4 +40,10 @@ li {
 figure {
   margin: 0;
   padding: 0;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  border: 1px solid red;
 }

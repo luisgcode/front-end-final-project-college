@@ -1,5 +1,5 @@
 .header {
-  padding: 2rem 0;
+  padding: 1rem 0 3rem 0;
   background: var(--secondary-color);
 }
 
@@ -10,11 +10,12 @@
   justify-content: space-between;
   flex-direction: column;
   text-align: center;
+  margin: 0 auto;
 }
 
 .header_wrapp_logo {
   width: 20rem;
-  margin-bottom: 2rem;
+  margin-bottom: 3rem;
 }
 
 .header_wrapp_logo small {
@@ -27,10 +28,17 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 3rem;
+  gap: 4rem;
 }
 
 .nav_li_a {
   color: var(--bg-color);
-  font-weight: bold;
+  padding-bottom: 0.5rem;
+  transition: all 0.3s ease;
+}
+
+.nav_li_a:hover {
+  border-bottom: 2px solid var(--primary-color);
+  border-radius: 5px;
+  transition: all 0.3s ease;
 }
