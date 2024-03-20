@@ -3,9 +3,10 @@
 - student
 - student
 
-## 📜 web name.. project 📜
+## 📜 Touristica Agency travel 📜
 
-Explanation
+At least 3 functional pages is required.
+Must include some CSS animations according to the material explained in class
 
 ## 👨‍💻 Used Technologies 👨‍💻
 
@@ -17,12 +18,11 @@ Explanation
 
 ## 🎨 Color Palette 🎨
 
-| Color                         | Description                  |
-| ----------------------------- | ---------------------------- |
-| Light mode Background #ffffff | Mainly Background            |
-| Light mode Text #1f2428       | Regular text                 |
-| Light mode Headers #321a7f    | Titles and important text    |
-| Light mode Details #5d5fef    | Details around the portfolio |
+| Color                 | Description       |
+| --------------------- | ----------------- |
+| Simple color #ffffff  | links & deatails  |
+| Primary color #4169e1 | Important details |
+| regular color #1a1a1a | Regular text      |
 
 ## 🤗 Social Network 🤗
 

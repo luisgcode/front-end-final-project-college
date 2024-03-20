@@ -1,8 +1,6 @@
 :root {
-  --bg-color: #ffffff;
-  --primary-color: #22c6b0;
-  --secondary-color: #353535;
-  --heading-color: #3b4972;
+  --simple-color: #ffffff;
+  --primary-color: #4169e1;
   --regular-color: #1a1a1a;
 
   --primary-text: clamp(2.5rem, 5vw, 3.5rem);
