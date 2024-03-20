@@ -6,26 +6,46 @@
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 900px;
+  overflow: hidden;
 }
 
 .nav {
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 2rem 0;
+  justify-content: space-between;
+  padding: 2rem;
 }
 
 .nav-logo {
-  max-width: 10rem;
+  max-width: 13rem;
+}
+
+.nav-menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background: var(--primary-color);
+  height: 100vh;
+  text-align: center;
+}
+
+.close_menu_btn {
+  color: var(--simple-color);
+  margin-top: 3rem;
+  font-size: 3rem;
+}
+
+.nav-ul {
+  padding: 3rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3rem;
 }
 
 .nav-ul-li-a {
   color: var(--simple-color);
-}
-
-.nav-ul {
-  display: flex;
+  font-size: 1.8rem;
 }
 
 @media (min-width: 768px) {
