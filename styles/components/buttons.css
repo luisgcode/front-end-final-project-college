@@ -1,0 +1,6 @@
+/* Open hamburguer menu button */
+@media (min-width: 650px) {
+  .open_menu_btn {
+    display: none;
+  }
+}
