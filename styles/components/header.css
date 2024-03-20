@@ -1,46 +1,57 @@
 .header {
-  width: 100%;
+  max-width: 100vw;
   height: 100vh;
   background-image: url(/assets/images/header-portrait-bg.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 900px;
+  padding: 2rem 3rem;
   overflow: hidden;
+  position: relative;
 }
 
-.nav {
+.header-wrapp {
   display: flex;
+  width: 100%;
   align-items: center;
   justify-content: space-between;
-  padding: 2rem;
 }
 
-.nav-logo {
+/* logo */
+.header-logo {
   max-width: 13rem;
 }
 
-.nav-menu {
+.main-nav {
   position: absolute;
   right: 0;
+  height: 100vh;
   top: 0;
   background: var(--primary-color);
-  height: 100vh;
-  text-align: center;
+  /* transform: translate(120%); */
 }
 
-.close_menu_btn {
-  color: var(--simple-color);
-  margin-top: 3rem;
-  font-size: 3rem;
+.main-nav::before {
+  content: "";
+  position: absolute;
+  width: 0.3rem;
+  background: var(--details-color);
+  left: -3px;
+  height: 100%;
 }
 
 .nav-ul {
-  padding: 3rem 3rem;
+  padding: 5.5rem 3rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3rem;
+  gap: 2rem;
+}
+
+.nav-ul li {
+  border-bottom: 2px solid white;
+  padding-bottom: 1rem;
 }
 
 .nav-ul-li-a {
@@ -48,7 +59,52 @@
   font-size: 1.8rem;
 }
 
-@media (min-width: 768px) {
+.close_menu_btn {
+  color: var(--simple-color);
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+/* .nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 3rem;
+  border: 1px solid red;
+  width: 100%;
+  height: 15rem;
+  overflow-x: hidden;
+}
+
+
+.nav-menu {
+  background: var(--primary-color);
+  height: 100vh;
+  position: absolute;
+  right: 0;
+  top: 0;
+  text-align: center;
+  transform: translateX(90px);
+} */
+
+/* .nav-menu.active {
+  transform: translateX(0); 
+} */
+
+/* 
+
+.open_menu_btn {
+  font-size: 3.5rem;
+  color: var(--primary-color);
+}
+
+
+
+
+
+ */
+
+@media (min-width: 600px) {
   .header {
     background-image: url(/assets/images/header-landscape-bg.jpg);
   }
