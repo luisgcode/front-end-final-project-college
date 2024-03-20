@@ -75,16 +75,26 @@
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 2rem;
+    gap: 5rem;
   }
 
-  .close_menu_btn {
+  .close_menu_btn,
+  .open_menu_btn {
+    visibility: hidden;
+    opacity: 0;
     display: none;
-    background: red;
   }
 
   .nav-ul li {
+    border-bottom: 2px solid var(--simple-color);
+    padding-bottom: 0.5rem;
+    transition: all 0.3s ease;
+  }
+
+  .nav-ul li:hover {
     border-bottom: 2px solid var(--details-color);
-    padding-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    transform: scale(1.1);
+    transition: all 0.3s ease;
   }
 }
