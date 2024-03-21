@@ -6,5 +6,6 @@
 
   --primary-text: clamp(3rem, 5vw, 5rem);
   --secondary-text: clamp(2.5rem, 5vw, 3.5rem);
+  --tertiary-text: clamp(2rem, 5vw, 2.3rem);
   --regular-text: clamp(1.6rem, 2vw, 1.8rem);
 }
