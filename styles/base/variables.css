@@ -4,7 +4,7 @@
   --regular-color: #1a1a1a;
   --details-color: #fa8334;
 
-  --primary-text: clamp(2.8rem, 5vw, 5rem);
-  --secondary-text: clamp(2rem, 5vw, 2rem);
+  --primary-text: clamp(3rem, 5vw, 5rem);
+  --secondary-text: clamp(2.5rem, 5vw, 3.5rem);
   --regular-text: clamp(1.6rem, 2vw, 1.8rem);
 }
