@@ -6,16 +6,16 @@
   background-repeat: no-repeat;
   background-size: cover;
   max-height: 900px;
-  padding: 2rem 3rem;
   overflow: hidden;
   position: relative;
 }
 
 .header-wrapp {
   display: flex;
+  padding: 2rem 3rem;
   width: 100%;
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 auto 10rem auto;
   align-items: center;
   justify-content: space-between;
 }
@@ -23,6 +23,24 @@
 /* logo */
 .header-logo {
   max-width: 13rem;
+}
+
+/* navigation in navigation style */
+
+/* hero */
+
+.header-hero {
+  text-align: center;
+  color: var(--simple-color);
+}
+
+.header-hero-title {
+  margin-bottom: 2rem;
+}
+
+.header-hero-subtitle {
+  color: var(--simple-color);
+  margin-bottom: 4rem;
 }
 
 @media (min-width: 650px) {
