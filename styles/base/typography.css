@@ -3,7 +3,7 @@ html {
 }
 
 body {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Noto Serif", serif;
   color: var(--regular-color);
   font-size: var(--regular-text);
   line-height: 1.6;
@@ -12,6 +12,7 @@ body {
 p {
   margin: 0;
   padding: 0;
+  letter-spacing: 1px;
   color: var(--regular-color);
 }
 
@@ -19,7 +20,8 @@ h1,
 h2,
 h3,
 h3,
-h4 {
+h4,
+a {
   margin: 0;
   padding: 0;
   font-family: "Ubuntu", sans-serif;
