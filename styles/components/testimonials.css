@@ -22,6 +22,12 @@
 
 .testimonial {
   margin: 5rem 0;
+  text-align: left;
+}
+
+.testimonial small {
+  color: #00d26a;
+  font-weight: bold;
 }
 
 .testimonial-intro {
@@ -50,10 +56,7 @@
   border-radius: 15px;
   margin-top: 1rem;
   padding: 2rem;
-}
-
-.testimonial-user-picture:nth-child(3) {
-  display: none;
+  box-shadow: 0 0.1rem 0.4rem 0 rgba(0, 0, 0, 0.422);
 }
 
 @media (min-width: 650px) {
@@ -78,8 +81,12 @@
 
   .testimonial-comment {
     margin: 0;
+    border: 4px solid transparent;
+    transition: all 0.3s ease;
   }
-  .testimonial-intro-name {
-    text-align: left;
+
+  .testimonial-comment:hover {
+    border: 4px solid var(--primary-color);
+    transition: all 0.3s ease;
   }
 }
