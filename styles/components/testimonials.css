@@ -1,0 +1,25 @@
+.testimonials {
+  position: relative;
+  padding: 10rem 2rem;
+}
+
+.video {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  object-fit: cover;
+  top: 0;
+  left: 0;
+  opacity: 0.3;
+  border-radius: 5px;
+  z-index: -1;
+}
+
+/* picture user */
+
+.testimonial-user-picture {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+}
