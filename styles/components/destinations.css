@@ -36,13 +36,13 @@
 }
 
 .destinations-card:first-child {
-  background-image: url(/assets/images/destiny-1.jpg);
+  background-image: url(../../assets/images/destiny-1.jpg);
 }
 .destinations-card:nth-child(2) {
-  background-image: url(/assets/images/destiny-2.jpg);
+  background-image: url(../../assets/images/destiny-2.jpg);
 }
 .destinations-card:nth-child(3) {
-  background-image: url(/assets/images/destiny-3.jpg);
+  background-image: url(../../assets/images/destiny-3.jpg);
 }
 
 @media (min-width: 650px) {
