@@ -30,7 +30,7 @@ Must include some CSS animations according to the material explained in class
   GitHub: https://github.com/luisgcode 🧑‍💻
   LinkedIn: https://www.linkedin.com/in/luisgcode/ 🧑‍💻
 - 🧑‍💻
-  GitHub: https://github.com/luisgcode 🧑‍💻
-  Instagram: https://www.instagram.com/luisgcode/ 🧑‍💻
+  GitHub: https://github.com/MinjaeKim9929 🧑‍💻
+  Instagram: https://www.instagram.com/mik._.eajnim/ 🧑‍💻
 
 ## 📜 Screenshots 📜

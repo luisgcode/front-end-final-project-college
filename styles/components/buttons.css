@@ -1,15 +1,23 @@
 /* hero button */
 .headero-hero-btn {
-  border: 1px solid var(--simple-color);
-  border-radius: 10px;
-  padding: 1rem;
-  color: var(--simple-color);
-  background: var(--details-color);
+	border: 1px solid var(--simple-color);
+	border-radius: 10px;
+	padding: 1rem;
+	color: var(--simple-color);
+	background: var(--details-color);
+}
+
+.submit-btn {
+	border: 1px solid var(--simple-color);
+	border-radius: 10px;
+	padding: 1rem;
+	color: var(--simple-color);
+	background: var(--details-color);
 }
 
 /* Open hamburguer menu button */
 @media (min-width: 650px) {
-  .open_menu_btn {
-    display: none;
-  }
+	.open_menu_btn {
+		display: none;
+	}
 }

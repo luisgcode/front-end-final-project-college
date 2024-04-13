@@ -1,0 +1,124 @@
+.header-about {
+	height: 100vh;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.415), rgba(229, 18, 18, 0)),
+		url(/assets/images/header-landscape-bg.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	max-height: 400px;
+	overflow: hidden;
+	position: relative;
+}
+
+.header-wrapp {
+	display: flex;
+	padding: 2rem 3rem;
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto 2rem auto;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.header-about .nav-ul-li-a {
+	color: var(--details-color);
+	font-size: 1.8rem;
+	font-weight: 500;
+}
+
+/* logo */
+.header-logo {
+	max-width: 13rem;
+}
+
+/* Styling the about-container */
+.about-container {
+	max-width: 1200px; /* Adjust as needed */
+	width: 90%;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+/* Styling the about-container header */
+.about-container-header h2 {
+	color: white;
+	text-align: center;
+}
+
+.about-info-container {
+	padding: 20px;
+}
+
+.about-container-header {
+	background-color: rgba(65, 105, 225);
+	text-align: center;
+	padding: 20px;
+}
+
+.about-info-container-header {
+	font-size: 24px;
+	font-weight: bold;
+	color: #333;
+	margin-bottom: 10px;
+}
+
+.about-info-paragraph p {
+	margin-bottom: 30px;
+	margin-top: 30px;
+	line-height: 1.5;
+	text-align: left;
+}
+
+.brazil-img,
+.peru-img {
+	width: 40%;
+	height: auto;
+	min-width: 200px;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.clearfix::after {
+	content: '';
+	display: table;
+	clear: both;
+}
+
+/* navigation in navigation style */
+
+@media (min-width: 820px) {
+	.header-logo {
+		max-width: 18rem;
+	}
+
+	.brazil-img {
+		float: left;
+		margin-right: 15px;
+	}
+
+	.peru-img {
+		float: right;
+		margin-left: 15px;
+	}
+
+	.brazil-img,
+	.peru-img {
+		max-height: 320px;
+		min-height: 250px;
+	}
+
+	.header {
+		background-image: linear-gradient(rgba(0, 0, 0, 0.815), rgba(255, 255, 255, 0)),
+			url(../../assets/images/header-landscape-bg.jpg);
+	}
+}
+
+@media (min-width: 1200px) {
+	.header-wrapp {
+		padding: 2rem 6rem;
+	}
+
+	.header-logo {
+		max-width: 24rem;
+	}
+}
